@@ -1,7 +1,7 @@
 <div class='c-tags-list-container'>
   <div class='o-grid'>
     <div class='o-grid__col o-grid__col--full'>
-      {{#get 'tags' limit='100'}}
+      {{#get 'tags' limit='100' filter='visibility:public' include='count.posts'}}
         <nav class='c-tags-list-wrap' aria-label='Tags menu'>
           <ul class='c-tags-list o-plain-list dragscroll'>
             <li class='c-tags-list__item'>
