@@ -7,7 +7,6 @@ on:
 jobs:
   deploy:
     runs-on:
-             - self-hosted
              - tenki-local-macos-26-2c-4g
     steps:
       - uses: actions/checkout@v4
