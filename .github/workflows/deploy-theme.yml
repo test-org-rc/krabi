@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: tenki-local-ubuntu-22.04-medium-4c-8g
     steps:
       - uses: actions/checkout@v4
       - name: Deploy to Krabi Demo
